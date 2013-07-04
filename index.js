@@ -44,7 +44,7 @@ M22oProxyHandler.prototype.hasOwn= function(target, key){
 }
 M22oProxyHandler.prototype.get= function(target, key){
 	var hasMap= target.get(key)
-	if(hasMap !=== undefined)
+	if(hasMap !== undefined)
 		return hasMap
 	var hasNative= target[key]
 	if(has !== undefined)
